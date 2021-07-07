@@ -5,8 +5,13 @@
     background-color: darkred;
 }
 
-.star-line{
+.star_line{
     width: 270px;
     height: 50px;
     background-color: yellow;
+}
+
+.img-portfolio{
+    background-color: tomato;
+    height: 250px;
 }
