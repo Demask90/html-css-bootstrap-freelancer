@@ -11,7 +11,13 @@
     background-color: yellow;
 }
 
-.img-portfolio{
+.img_portfolio{
     background-color: tomato;
-    height: 250px;
+    width: 250px;
+    height: 180px;
+}
+
+.text_about{
+    background-color: teal;
+    width: 50%;
 }
