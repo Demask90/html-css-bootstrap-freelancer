@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-
-    <div class="container-fluid bg-dark">
-        <div class="container border">
+    <header>
+        <div class="container-fluid bg-dark">
             <div class="row border">
-                <div class="col-6 p-4 border bg-warning">
+                <div class="col-5 p-4 border bg-warning">
                     START BOOTSTRAP
                 </div>
-            
-                <div class="col-6 border bg-info">
+                <div class="col-7 border bg-info">
                     <div class="row row-cols-auto d-flex justify-content-end">
                         <div class="col text-center p-4 border bg-primary">
                             PORTFOLIO
@@ -32,58 +31,134 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+    </header>
+    <main>
+
+        <!-- jumbotron -->
     <div class="container-fluid bg-dark">
-        <div class="container border bg-dark">
-            <div class="row d-flex justify-content-center p-5">
-                <div class="img_jumbo"></div>
-                <div style="color: white;" class="h1 p-2 text-center">START BOOTSTRAP</div>
-                <div class="star_line"></div>
-                <div style="color: white;" class="h6 p-3 text-center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
-            </div>
+        <div class="row d-flex justify-content-center p-5">
+            <div class="col img_jumbo"></div>
+            <div style="color: white;" class="h1 p-2 text-center">START BOOTSTRAP</div>
+            <div style="color: white;" class="pb-3 text-center">--------------------------------</div>
+            <div style="color: white;" class="h6 text-center ">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
         </div>
     </div>
+    <!-- fine jumbotron -->
 
-
-    <div class="container-fluid bg-light">
-        <div class="container p-3 border bg-light">
-            <div class="row d-flex justify-content-center">
-                <div class="h2 text-center">PORTFOLIO</div>
-                <div class="star_line"></div>
-                <div class="row row-cols-3 d-flex justify-content-center">
-                    <div class="img_portfolio col p-4 border">Column</div>
-                    <div class="img_portfolio col p-4 border">Column</div>
-                    <div class="img_portfolio col p-4 border">Column</div>
-                    <div class="img_portfolio col p-4 border">Column</div>
-                    <div class="img_portfolio col p-4 border">Column</div>
-                    <div class="img_portfolio col p-4 border">Column</div>
+    <!-- inizio portfolio -->
+    <div class="container-fluid p-3 d-flex justify-content-center border bg-light">
+        <div class="row col-12 d-flex justify-content-center">
+            <div class="h2 text-center">PORTFOLIO</div>
+            <div class="pb-3 text-center">--------------------------------</div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="img_portfolio"></div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- fine portfolio -->
 
-    <div class="container-fluid bg-dark">
-        <div class="container p-3 border bg-dark">
-            <div class="row d-flex flex-column align-items-center">
-                <div style="color: white;" class="h2 text-center">ABOUT</div>
-                <div class="star_line"></div>
-                <div class="col-8 border bg-info">
-                    <div class="row row-cols-auto d-flex justify-content-center">
-                        <div class="text_about col text-center p-1 border bg-primary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi modi amet nihil voluptates earum blanditiis, nesciunt minima ex nisi pariatur, reiciendis aliquid culpa suscipit! Exercitationem in ad ullam esse.
-                        </div>
-                        <div class="text_about col text-center p-1 border bg-secondary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ad officiis nisi dolorem porro sapiente ea, velit numquam voluptatem corporis sunt, totam asperiores doloribus placeat? At, sequi dolorem? Id, quis.
-                        </div>
+    <!-- inizio about -->
+    <div class="container-fluid p-5 bg-dark">
+        <div class="row d-flex flex-column align-items-center">
+            <div style="color: white;" class="h2 text-center">ABOUT</div>
+            <div style="color: white;" class="pb-3 text-center">--------------------------------</div>
+            <div class="col-8 border bg-info">
+                <div class="row">
+                    <div class="col-12 col-sm-6 text_about text-center p-1 border bg-primary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi modi amet nihil voluptates earum blanditiis, nesciunt minima ex nisi pariatur, reiciendis aliquid culpa suscipit! Exercitationem in ad ullam esse.
                     </div>
-                </div>        
-            </div>
+                    <div class="col-12 col-sm-6 text_about text-center p-1 border bg-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ad officiis nisi dolorem porro sapiente ea, velit numquam voluptatem corporis sunt, totam asperiores doloribus placeat? At, sequi dolorem? Id, quis.
+                    </div>
+                </div>
+            </div>        
         </div>
     </div>
+    <!-- fine about -->
+
+    <!-- inizio contact me -->
+    <div class="container-fluid p-3">
+        <div class="container p-3">
+            <div class="row d-flex flex-column align-items-center">
+                <div class="h2 text-center">CONTACT ME</div>
+                <div class="pb-3 text-center">--------------------------------</div>
+            </div>    
+            <div class="row justify-content-center">
+                <div class="ps-0 col-5 col-md-8 text-secondary">Name</div>
+                <hr class="mt-2 mb-2 col-5 col-md-8">
+                <div class="ps-0 col-5 col-md-8 text-secondary">Email Address</div>
+                <hr class="mt-2 mb-2 col-5 col-md-8">
+                <div class="ps-0 col-5 col-md-8 text-secondary">Phone Number</div>
+                <hr class="mt-2 mb-2 col-5 col-md-8">
+                <div class="contact_message ps-0 col-5 col-md-8 text-secondary">Message</div>
+                <hr class="mt-2 mb-2 col-5 col-md-8">
+                <div id="contact_button" class="col-5 col-md-8 p-0">
+                    <button type="button" class="btn col-md-2 mb-5">Send</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- fine contact me -->
 
 
 
+    </main>
+
+    <footer>
+        <footer>
+			<div class="top_footer container-fluid">
+                <div class="row justify-content-center align-items-center text-center pt-5 pb-5">
+                    <div class=" col-12 col-sm-4">
+                        <h5>LOCATION</h5>
+                        <p class="m-0">2214 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+
+                    <div  class="footer_icon col-12 col-sm-4 flex-nowrap">
+                        <h5>AROUND THE WEB</h5>
+                        <i class="fab fa-facebook-f border rounded-circle p-2 m-1"></i>
+                        <i class="fab fa-google-plus-g border rounded-circle p-2 m-1"></i>
+                        <i class="fab fa-twitter border rounded-circle p-2 m-1"></i>
+                        <i class="fab fa-linkedin-in border rounded-circle p-2 m-1"></i>
+                    </div>
+
+                    <div class="col-12 col-sm-4">
+                        <h5>ABOUT FREELANCER</h5>
+                        <p class="m-0">
+                            Freelance is a free to use, open source Bootstrap theme created by
+                            <span><a class="text-decoration-none" href="https://getbootstrap.com/">Start Bootstrap</a></span>
+                        </p>
+                    </div>
+                </div>
+			</div>
+
+			<div class="bottom_footer container-fluid">
+                <div class="row text-center p-4">
+                    <span class="">Copyright © Your Website 2019</span>
+                </div>
+			</div>
+		</footer>
+    </footer>
+    
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
 </body>
 </html>
