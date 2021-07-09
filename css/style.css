@@ -28,11 +28,6 @@ body {
 #contact_me .spacer::after,
 #portfolio .spacer::before,
 #portfolio .spacer::after {
-    content: '';
-    height: 0.25em;
-    width: 7.5em;
-    border-radius: 3em;
-    margin: 1em;
     background: black;
 }
 
@@ -118,9 +113,10 @@ header #hamburger:active .support-info {
 }
 
 #portfolio .img-hover-button:hover .background-effect {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 100, 100, 0.6);
     transition-duration: 0.4s;
     transition-timing-function: ease;
+    border-radius: 5px;
 }
 
 #about{
